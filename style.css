@@ -228,22 +228,26 @@ body {
     flex-wrap: wrap;
     gap: 1rem;
     flex: 2;
+    /* padding: 1rem; */
 }
 
 .filter-group {
     flex: 1;
     min-width: 150px;
+    padding-right: 2rem;
 }
 
 .filter-select {
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 1rem; 
     border: 2px solid #e9ecef;
     border-radius: 8px;
     font-size: 1rem;
     background: white;
     cursor: pointer;
     transition: border-color 0.3s ease;
+     text-align: right;         /* Aligns the selected value to the right */
+    direction: rtl;
 }
 
 .filter-select:focus {
